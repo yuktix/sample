@@ -1,20 +1,32 @@
-# #########################################################
-# 
-# test script for ankidb cloud api version 1.1.0 
-# this script is supposed to be standalone for quick testing 
-# on machines with minimum library support. 
-# Tested with 
-#   - python 2.7 
-#   - requests 
-# 
-# please ensure proper intervals between subsequent API calls 
-# to avoid blacklisting. 
-#
-# @copyright: Yuktix Technologies 2017-2022
-# contact: support@yuktix.com 
-# 
-# 
-# ########################################################
+
+"""
+Copyright 2019 Yuktix Technologies Private Limited.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-----------------------------------------------------------------
+
+test script for ankidb cloud api version 1.1.0 
+this script is supposed to be standalone for quick testing 
+on machines with minimum library support. Use yuktix python sdk 
+for better library support and avoid repeatable chores!
+
+
+please ensure proper intervals between subsequent API calls 
+to avoid blacklisting. 
+
+
+"""
 
 import hmac
 import hashlib
